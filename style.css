@@ -1,0 +1,38 @@
+body {
+    background-color: #01244a;
+    font-family: serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+}
+
+body p {
+    color: white;
+    text-align: center;
+}
+
+header {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    margin-bottom: -15px;
+}
+
+h2 {
+    background: url('background.png');
+    background-repeat: repeat-y;
+    color: #01244a;
+    font-size: 18px;
+    width: 400px;
+    padding: .1em;
+}
+
+li {
+    color: white;
+}
