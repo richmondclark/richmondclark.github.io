@@ -1,38 +1,76 @@
 body {
-    background-color: #01244a;
-    font-family: serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 860px;
+    background-color: #F8F8FF;
+    font-family: Palatino;
+    margin: 0;
 }
 
-body p {
-    color: white;
+h1, div#header a {
+    color: #B0D7F3;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+}
+
+div#header, footer {
+    padding: 1em;
+    background: #3687C0;
+}
+
+footer p {
+    clear: both;
+    color: #B0D7F3;
     text-align: center;
+    font-size: 12px;
 }
 
-header {
-    width: 310px;
-    margin-left: auto;
-    margin-right: auto;
+div#intro, div#area-descriptions {
+    background: #B0D7F3;
+    padding: 1em;
 }
 
-h1 {
-    text-transform: uppercase;
-    color: white;
-    font-weight: normal;
-    margin-bottom: -15px;
+div#intro p {
+    color: #166DAB;
 }
 
-h2 {
-    background: url('background.png');
-    background-repeat: repeat-y;
-    color: #01244a;
-    font-size: 18px;
-    width: 400px;
-    padding: .1em;
+div#areas {
+    background: #166DAB;
+    padding: 1em;
+}
+
+div#areas li, h2 {
+    color: #B0D7F3;
 }
 
 li {
-    color: white;
+    width: 150px;
+    padding: .5em;
+}
+
+li.selected {
+    background: #B0D7F3;
+}
+
+li.selected a {
+    color: #166DAB;
+}
+
+div#selected-area {
+    background: #B0D7F3;
+    padding: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+div#selected-area a {
+    color: #166DAB;
+}
+
+div#content {
+    background: #166DAB;
+}
+
+div#end {
+    clear: both;
 }
