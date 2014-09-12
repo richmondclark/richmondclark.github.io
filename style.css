@@ -89,6 +89,10 @@ iframe#map-canvas {
     float: right;
 }
 
+div#social {
+    float: right;
+}
+
 div#facebook {
     background-color: #B0D7F3;
 }
