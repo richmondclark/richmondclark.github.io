@@ -1,5 +1,9 @@
+a {
+    color: ##B0D7F3;
+}
+
 body {
-    background-color: #F8F8FF;
+    background-color: #3687C0;
     font-family: Palatino;
     margin: 0;
 }
@@ -11,6 +15,10 @@ h1, div#header a {
 ul {
     list-style-type: none;
     float: left;
+}
+
+li {
+    cursor: pointer;
 }
 
 div#header, footer {
@@ -26,6 +34,7 @@ footer p {
 }
 
 div#intro, div#area-descriptions {
+    height: 350px;
     background: #B0D7F3;
     padding: 1em;
 }
@@ -74,3 +83,8 @@ div#content {
 div#end {
     clear: both;
 }
+
+iframe#map-canvas {
+    float: right;
+}
+
