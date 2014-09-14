@@ -34,7 +34,7 @@ footer p {
 }
 
 div#intro, div#area-descriptions {
-    height: 200px;
+    min-height: 230px;
     background: #B0D7F3;
     padding: 1em;
     clear: both;

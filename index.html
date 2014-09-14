@@ -2,10 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-        <script type='text/javascript' src='jquery-1.11.1.min.js'></script>
         <meta name="Description" content="Richmond Clark is a solicitors and notaries based in Anniesland Cross, Glasgow."/>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <title>Richmond Clark</title>
     </head>
     <body>
@@ -26,15 +25,21 @@
             <a>Solicitors & Notaries</a>
         </div><!-- end #header -->
 
+
+        <div class="container">
         <div id="content">
-            <div id="intro">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2237.4477293081886!2d-4.324407!3d55.889593999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488845913e8893cb%3A0x80ec6770821a1f8c!2sRichmond+Clark!5e0!3m2!1sen!2suk!4v1410530000979" id="map-canvas" width="500" height="200" frameborder="0" style="border:0"></iframe>
-                <p><i>We are here to meet you and your family's legal needs.</i></p>
-                <p>Welcome to Richmond Clark. We are a newly established legal practice based at Anniesland Cross in Glasgow.</p>
-                <p>We seek to offer a high-standard, cost-effective and straight-forward service for you and your family's private and personal legal requirements.</p>
+            <div id="intro" class="row">
+                <div class="span8">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2237.4477293081886!2d-4.324407!3d55.889593999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488845913e8893cb%3A0x80ec6770821a1f8c!2sRichmond+Clark!5e0!3m2!1sen!2suk!4v1410530000979" id="map-canvas" width="500" height="200" frameborder="0" style="border:0"></iframe>
+                </div><!-- end .span4 -->
+                <div class="span4">
+                    <p><i>We are here to meet you and your family's legal needs.</i></p>
+                    <p>Welcome to Richmond Clark. We are a newly established legal practice based at Anniesland Cross in Glasgow.</p>
+                    <p>We seek to offer a high-standard, cost-effective and straight-forward service for you and your family's private and personal legal requirements.</p>
+                </div><!-- end .span4 -->
             </div><!-- end #intro -->
 
-            <div id="areas">
+            <div id="areas" class="row">
                 <h2>Our key areas of work:</h2>
 
                 <ul id="areas-list">
@@ -65,17 +70,10 @@
             </div><!-- end #areas -->
             <div id="end"></div>
         </div><!-- end #content -->
+        </div><!-- end .container -->
 
-        <script type="text/javascript">
-            $('li').click(function () {
-                $('#selected-area').children().hide();
-                $('#' + this.id + '-text').show();
-                $('li').removeClass("selected");
-                $(this).addClass("selected");
-            });
-        </script>
 
-        <footer>
+        <footer class="row">
             <p><i>Introductory offer: single will £75 (inc. VAT); couples will £100 (inc. VAT)</i></p>
             <p>
             0141 954 9550</br>
@@ -86,4 +84,13 @@
             </p>
         </footer>
     </body>
+    <script type='text/javascript' src='jquery-1.11.1.min.js'></script>
+    <script type="text/javascript">
+        $('li').click(function () {
+            $('#selected-area').children().hide();
+            $('#' + this.id + '-text').show();
+            $('li').removeClass("selected");
+            $(this).addClass("selected");
+        });
+    </script>
 </html>
