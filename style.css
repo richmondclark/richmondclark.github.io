@@ -1,3 +1,4 @@
+"""
 a {
     color: ##B0D7F3;
 }
@@ -6,7 +7,7 @@ a:hover {
     color: ##B0D7F3;
     text-decoration: none;
 }
-
+"""
 body {
     background-color: #3687C0;
     font-family: Palatino;
@@ -71,7 +72,7 @@ li {
 li.selected {
     background: #B0D7F3;
 }
-
+"""
 li.selected a, li.selected a:hover {
     color: #166DAB;
 }
@@ -79,26 +80,22 @@ li.selected a, li.selected a:hover {
 li a, li a:hover {
     color: #B0D7F3;
 }
- 
+ """
 div#selected-area {
     background: #B0D7F3;
     padding: 1em;
 }
-
+"""
 div#selected-area a {
     color: #166DAB;
 }
-
+"""
 div#content {
     background: #166DAB;
 }
 
 div#end {
     clear: both;
-}
-
-iframe#map-canvas {
-    padding-left: 10px;
 }
 
 div#facebook {
