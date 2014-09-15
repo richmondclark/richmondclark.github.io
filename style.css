@@ -103,6 +103,6 @@ iframe#map-canvas {
 }
 
 div#facebook {
-    width: 185px;
+    width: 100%;
     background-color: #B0D7F3;
 }
