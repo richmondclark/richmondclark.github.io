@@ -39,6 +39,10 @@ div#social {
     padding-bottom: 10px;
 }
 
+div#twitter {
+    vertical-align: right;
+}
+
 footer {
     padding-top: 10px;
 }
@@ -88,7 +92,7 @@ div#offer-wrapper {
 }
 
 div#offer {
-    width: 600px;
+    width: 520px;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
