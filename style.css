@@ -8,9 +8,9 @@ a:hover {
 }
 
 body {
-    background-color: #eee;
+    background-color: #fefdfb;
     font-size: 18px;
-/*    font-family: Palatino;*/
+    font-family: arial;
 }
 
 h1, div#header a {
@@ -27,7 +27,7 @@ li {
 
 div#header {
     font-family: Palatino;
-    background: #3687C0;
+    background: #6CA6CD;
     padding-bottom: 10px;
 }
 
@@ -115,7 +115,7 @@ li {
 }
 
 li.selected {
-    background: #3687C0;
+    background: #6CA6CD;
 }
 
 li.selected a, li.selected a:hover {
@@ -127,7 +127,7 @@ li a, li a:hover {
 }
 
 div#selected-area {
-    background: #3687C0;
+    background: #6CA6CD;
     padding: 1em;
 }
 
@@ -146,7 +146,6 @@ div#facebook {
     width: 100%;
 }
 
-@media (max-width: @screen-sm) {
-    body{font-size: 20px;}
+div#intro-text-wrapper {
+    padding-top: 30px;
 }
-
