@@ -27,6 +27,7 @@ li {
 div#header {
     font-family: Palatino;
     background: #3687C0;
+    padding-bottom: 10px;
 }
 
 div#header-content {
