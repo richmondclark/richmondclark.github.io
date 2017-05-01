@@ -45,6 +45,12 @@ span#facebook {
     padding-left: 10px;
 }
 
+div#phone-number {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: helvetica;
+}
+
 footer p {
     clear: both;
     color: #131516;
@@ -139,3 +145,8 @@ div#end {
 div#facebook {
     width: 100%;
 }
+
+@media (max-width: @screen-sm) {
+    body{font-size: 20px;}
+}
+
