@@ -8,8 +8,8 @@ a:hover {
 }
 
 body {
-    background-color: white;
-    font-family: Palatino;
+    background-color: #eee;
+/*    font-family: Palatino;*/
 }
 
 h1, div#header a {
@@ -24,13 +24,14 @@ li {
     cursor: pointer;
 }
 
-div#header, footer {
+div#header {
+    font-family: Palatino;
     background: #3687C0;
 }
 
 div#header-content {
     padding-top: 10px;
-    width: 600px;
+    width: 900px;
     margin: auto;
 }
 
@@ -49,14 +50,11 @@ footer {
 
 footer p {
     clear: both;
-    color: white;
+    color: #131516;
     text-align: center;
 }
 
-div#intro-wrapper {
-    background: #f5f5f5;
-    width: 100%;
-} 
+
 
 div#intro, div#area-descriptions {
     padding-top: 10px;
@@ -65,29 +63,25 @@ div#intro, div#area-descriptions {
 }
 
 div#intro, div#area-descriptions {
-    width: 600px;
+    width: 900px;
     margin: auto;
 }
 
 div#intro p {
-    color: #166DAB;
-}
-
-div#areas-wrapper {
-    background: #166DAB;
-    width: 100%;
-    padding-bottom: 10px;
+    color: #131516;
 }
 
 div#areas {
+    background: #f5f5f5;
     padding-left: 10px;
     padding-right: 10px;
-    width: 600px;
+    padding-bottom: 10pxßßß;
+    width: 900px;
     margin: auto;
 }
 
 div#offer-wrapper {
-    background: #FFD700;
+    background: #ffff99;
     width:; 100%
 }
 
@@ -102,12 +96,12 @@ div#offer a {
     font-family: helvetica;
     font-weight: bold;
     font-size: 15px;
-    color: white;
+    color: #131516;
     text-align: center;
 }
 
 div#areas li, h2 {
-    color: white;
+    color: #131516;
 }
 
 li {
@@ -123,7 +117,7 @@ li.selected a, li.selected a:hover {
 }
 
 li a, li a:hover {
-    color: white;
+    color: #131516;
 }
 
 div#selected-area {
@@ -144,4 +138,10 @@ div#end {
 
 div#facebook {
     width: 100%;
+}
+
+#footer-content {
+    width: 900px;
+    margin: auto;
+    background: #f5f5f5;
 }
